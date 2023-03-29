@@ -54,9 +54,30 @@ console.log(maiorvalor)
 
 //Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “Nenhum valor ímpar encontrado”.
 
+
+
+
+
 //Utilizando for, descubra o menor valor contido no array e imprima-o.
 
-//Utilizando for, crie um array que vá de 1 a 25 e imprima o resultado.
+let menorvalor = numbers[0]
 
+for(let index = 1; index < numbers.length; index += 1){
+
+if (numbers[index] < menorvalor) {
+    menorvalor = numbers[index];
+}
+}
+console.log(menorvalor);
+
+//Utilizando for, crie um array que vá de 1 a 25 e imprima o resultado.
+let teste = [];
+for(let index =1; index<= 25; index += 1){
+
+teste.push(index);
+
+}
+
+console.log(teste)
 //Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
 
