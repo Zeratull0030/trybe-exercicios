@@ -40,6 +40,18 @@ else {
 
 //Utilizando for, descubra o maior valor contido no array e imprima-o.
 
+let maiorvalor= numbers[0]
+
+for(let index = 1; index < numbers.length; index += 1){
+
+if (numbers[index] > maiorvalor){
+    maiorvalor = numbers[index]
+}
+
+}
+
+console.log(maiorvalor)
+
 //Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “Nenhum valor ímpar encontrado”.
 
 //Utilizando for, descubra o menor valor contido no array e imprima-o.
