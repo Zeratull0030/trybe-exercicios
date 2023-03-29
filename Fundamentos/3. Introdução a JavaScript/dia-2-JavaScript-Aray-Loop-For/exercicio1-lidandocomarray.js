@@ -14,14 +14,26 @@ resultado += numbers[index]
 console.log(resultado);
 
 //Calcule e imprima a média aritmética dos valores contidos no array.
+let soma = 0
+for(let index = 0; index < numbers.length; index += 1){
+    soma += numbers[index]
+    }
 
+    let media = soma / numbers.length
+    
+    console.log(media);
 
 
 //A média aritmética é o resultado da soma de todos os elementos dividido pelo número total de elementos.
 //Com base no código que acabou de gerar, faça com que: caso o valor final seja maior que 20, imprima a mensagem “Valor maior que 20”; e, 
 //caso não seja maior que 20, imprima a mensagem “Valor menor ou igual a 20”.
 
-
+if(media > 20){
+   console.log("Valor maior que 20") 
+}
+else {
+    console.log("Valor menor ou igual a 20")
+}
 
 
 
