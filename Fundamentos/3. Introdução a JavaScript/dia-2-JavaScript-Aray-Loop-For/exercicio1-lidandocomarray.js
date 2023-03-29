@@ -5,8 +5,13 @@ console.log([numbers])
 
 
 //Some todos os valores contidos no array e imprima o resultado.
+let resultado = 0;
 
 
+for(let index = 0; index < numbers.length; index += 1){
+resultado += numbers[index]
+}
+console.log(resultado);
 
 //Calcule e imprima a média aritmética dos valores contidos no array.
 
